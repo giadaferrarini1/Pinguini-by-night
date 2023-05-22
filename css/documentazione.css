@@ -117,3 +117,43 @@ body{
    margin: 2px;
  }
  
+.architettura{
+   text-align: center;
+}
+
+.falegname{
+   width: 30vw;
+   height: 50vh;
+   min-width: 250px;
+   margin-bottom: 15px;
+}
+
+.albero{
+   text-align: center;
+}
+.pino{
+   width: 20vw;
+   height: 30vh;
+   min-width: 200px;
+}
+
+ .risultati{
+   width: 50vw;
+   height: 30vh;
+   max-width: 400px;
+   min-width: 250px;
+ }
+
+ 
+ .valutazione{
+   width: 10vw;
+   height: 50vh;
+   min-width: 250px;
+   margin-bottom: 15px;
+ }
+
+
+ .risultanti{
+   text-align: center;
+   padding-left: 30px;
+ }
