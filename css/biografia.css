@@ -1,0 +1,102 @@
+body{
+    height: 98vh;
+    min-height: 750px;
+    background-image: url(../Img/pinguini-10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;   
+ }
+ 
+ .frame{
+    margin: auto;
+    display: flex;
+    width: 99vw;
+    height: 98vh;
+    min-width: 25rem;
+    min-height: 10rem;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+ }
+ header{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    
+ }
+ 
+    
+ footer{
+    margin-right: 40px;
+    width: 50px;
+    
+ }   
+ 
+ .navigation-left{
+    background-color: rgba(172, 178, 181, 0.881);
+    border-radius: 17%;
+    padding: 2px 6px;
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.506);
+ 
+    
+    
+ }
+ .navigation-left:hover{
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.300);
+    background-color: rgba(171, 178, 181, 0.5);
+    min-width: 50px;
+    cursor: pointer;
+ }
+ .navigation{
+    margin-top: 50px;
+    height: 30px;
+    width: 80px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: rgba(172, 178, 181, 0.881);
+    border-radius: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.506);
+ }
+ .navigation:hover{
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.306);
+    background-color: rgba(169, 179, 182, 0.852);
+    cursor: pointer;
+ }
+ 
+ .bio{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+ }
+ 
+ h2{
+    text-align: center;
+ }
+ .body{
+    width: 35vw;
+    height: fit-content;
+    max-height: 70vh;
+    min-width: 350px;
+    overflow: auto;
+    margin-top: 50px;
+    padding: 30px 60px;
+    background-color: rgba(172, 178, 181, 0.881);
+    border-radius: 17%;
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.506);
+ }
+
+p{
+   text-align: center;
+}
+br{
+   margin-bottom: 10px;
+}
