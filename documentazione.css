@@ -1,0 +1,167 @@
+body{
+    height: 98vh;
+    min-height: 750px;
+    background-image: url(../Img/pinguini-10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center; 
+    line-height: 1.8em;  
+ }
+ 
+ h1, h2, h3, h4, h5, h6{
+   font-family: sans-serif;
+}
+
+p{
+   font-family: serif;
+}
+
+ .frame{
+    margin: auto;
+    display: flex;
+    width: 99vw;
+    height: 98vh;
+    min-width: 25rem;
+    min-height: 10rem;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+ }
+ header{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    
+ }
+ 
+    
+ footer{
+    margin-right: 40px;
+    width: 50px;
+    
+ }   
+ 
+ .navigation-left{
+    background-color: rgba(172, 178, 181, 0.881);
+    border-radius: 17%;
+    padding: 2px 6px;
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.506);
+ 
+    
+    
+ }
+ .navigation-left:hover{
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.300);
+    background-color: rgba(171, 178, 181, 0.5);
+    min-width: 50px;
+    cursor: pointer;
+ }
+ .navigation{
+    margin-top: 50px;
+    height: 30px;
+    width: 80px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: rgba(172, 178, 181, 0.881);
+    border-radius: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.506);
+ }
+ .navigation:hover{
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.306);
+    background-color: rgba(169, 179, 182, 0.852);
+    cursor: pointer;
+ }
+ 
+ .bio{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+ }
+ 
+ h1{
+    text-align: center;
+ }
+
+ h3{
+    color: rgba(0, 94, 255, 0.892);
+    text-align: center;
+ }
+ .body{
+    width: 35vw;
+    min-width: 350px;
+    height: 70vh;
+    margin-top: 50px;
+    padding: 30px 60px;
+    background-color: rgba(172, 178, 181, 0.881);
+    border-radius: 17%;
+    box-shadow: 3px 3px 8px 3px rgba(0, 1, 1, 0.506);
+    overflow-y: auto;
+ }
+ .no-style{
+   list-style-type: none;
+ }
+ .style{
+   list-style-type:circle;
+   display: table;
+   margin: 0 auto;
+ }
+ li{
+   text-align: center;
+ }
+ p{
+   text-align: center;
+ }
+ img{
+   width: 25vw;
+   height: 40vh;
+   margin: 2px;
+ }
+ 
+.architettura{
+   text-align: center;
+}
+
+.falegname{
+   width: 30vw;
+   height: 50vh;
+   min-width: 250px;
+   margin-bottom: 15px;
+}
+
+.albero{
+   text-align: center;
+}
+.pino{
+   width: 20vw;
+   height: 30vh;
+   min-width: 200px;
+}
+
+ .risultati{
+   width: 50vw;
+   height: 30vh;
+   max-width: 400px;
+   min-width: 250px;
+ }
+
+ 
+ .valutazione{
+   width: 10vw;
+   height: 50vh;
+   min-width: 250px;
+   margin-bottom: 15px;
+ }
+
+
+ .risultanti{
+   text-align: center;
+   padding-left: 30px;
+ }
